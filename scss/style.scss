@@ -3,10 +3,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 body {
-  background-color: $light-color;
+  background-color: $light-color; 
   font-family: $font-stack;
   line-height: 1;
 }
@@ -20,6 +21,9 @@ a {
 }
 
 .hero {
+  
+  margin-right: auto;
+
   // This is where the bulk of the SCSS styling needs to be done
 
   // Take a look at the other files we've built already. How can they be useful here?
